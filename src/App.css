@@ -14,16 +14,39 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+}
+.Downloads {
+  /*min-height: 100vh;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
 }
 
+.App-header li{
+  list-style-type: none;
+  display:inline;
+  margin:calc(10px + 2vmin);
+}
+.App-header ul{
+  padding:0;
+}
+.Downloads li{
+  list-style-type: none;
+  margin:0;
+}
+.Downloads ul{
+  text-align: center;
+  padding:0;
+  font-size: 15px;
+}
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +59,10 @@
     transform: rotate(360deg);
   }
 }
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
