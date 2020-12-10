@@ -1,0 +1,100 @@
+//
+// Variables
+//
+// Background
+$dt-gray-dark: #282a36;
+  // Current Line & Selection
+$dt-gray: #44475a;
+  // Foreground
+$dt-gray-light: #f8f8f2;
+  // Comment
+$dt-blue: #6272a4;
+
+$dt-cyan: #8be9fd;
+$dt-green: #50fa7b;
+$dt-orange: #ffb86c;
+$dt-pink: #ff79c6;
+$dt-purple: #bd93f9;
+$dt-red: #ff5555;
+$dt-yellow: #f1fa8c;
+
+body {
+  margin: 0;
+  font-family: 'Share Tech Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $dt-gray-dark;
+  color:$dt-gray-light;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App-header a{
+  color:$dt-pink;
+  text-decoration: none;
+}
+.Downloads a{
+  color:$dt-cyan;
+  text-decoration: none;
+}
+ a{
+  color:$dt-cyan;
+  text-decoration: none;
+}
+h1{
+  color: $dt-green;
+}
+input, textarea, select{
+  background: $dt-blue;
+  border: $dt-pink 2px solid;
+  margin: 2px;
+  color: $dt-gray-light;
+  font-family: 'Share Tech Mono', monospace;
+}
+input::placeholder{
+  color: $dt-gray-dark;
+}
+textarea:focus, input:focus{
+  outline: none;
+  border: $dt-purple 2px solid;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: $dt-gray-light;
+  -webkit-font-feature-settings: inherit;
+  background-color: $dt-blue;
+  color:$dt-gray-light;
+  border: $dt-pink 2px solid;
+  margin: 2px;
+  font-family: 'Share Tech Mono', monospace;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+button{
+  background: $dt-blue;
+  border: $dt-green 2px solid;
+  margin: 2px;
+  color: $dt-gray-light;
+  font-family: 'Share Tech Mono', monospace;
+}
+button:hover{
+  cursor: pointer;
+  background: $dt-gray-dark;
+  border: $dt-purple 2px solid;
+}
+button:focus{
+  outline: none;
+  border: $dt-purple 2px solid;
+}
+.is-active{
+  color:$dt-orange;
+}
