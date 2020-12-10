@@ -98,3 +98,9 @@ button:focus{
 .is-active{
   color:$dt-orange;
 }
+input {
+  border-radius:0;
+}
+button {
+  border-radius:0;
+}

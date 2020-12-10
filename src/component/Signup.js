@@ -10,19 +10,12 @@ const Signup = (props) => {
 
     const handleSubmit = async (e) => {
         e.preventDefault()
-        //wait to signup
-        const errorsLen=errors.length()
-        await handleSignup()
-        if(errorsLen==errors.length()){
-            props.history.push('/')
-        }
-        //push home
+        await handleSignup(props.history);
     }
     const handleChange = e => {
         const {name, value} = e.target
         setInputs(prev => ({...prev, [name]: value}))
     }
-
     return (
         <form onSubmit={handleSubmit}>
             {/* replace the div tags with a form tag */}

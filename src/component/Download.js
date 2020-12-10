@@ -6,7 +6,8 @@ const Download = (props) => {
 
     return (
         <div className={"Downloads"}>
-            <h2>TwinTwin Alpha</h2>
+            <h2 style={{marginBottom:0}}>TwinTwin Alpha</h2>
+            <p style={{marginBottom:20,fontSize:13}}>A top down multiplayer shooter</p>
             <FaWindows size={60}/>
             <ul>
                 <li>

@@ -15,7 +15,7 @@ const AuthProvider = (props) => {
         // middle man between firebase and signup
         console.log('handleSignup')
         // calling signup from firebase server
-        authMethods.signup(inputs.email, inputs.password,setErrors ,setToken )
+        authMethods.signup(inputs.email, inputs.password,setErrors ,setToken,history )
     }
     const handleSignin = () => {
         //changed to handleSingin
