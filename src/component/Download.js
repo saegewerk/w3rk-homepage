@@ -14,7 +14,7 @@ const Download = (props) => {
                     <a href={""}>Installer (.exe)</a>
                 </li>
                 <li>
-                    <a href={""}>Compressed (.zip)</a>
+                    <a href={"https://github.com/saegewerk/TwinTwin/releases/download/v1.0.0/TwinTwin.zip"}>Compressed (.zip)</a>
                 </li>
             </ul>
         </div>

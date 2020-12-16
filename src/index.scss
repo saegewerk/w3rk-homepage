@@ -31,6 +31,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.is-active{
+  color:$dt-orange !important;
+}
 .App-header a{
   color:$dt-pink;
   text-decoration: none;
@@ -95,9 +98,7 @@ button:focus{
   outline: none;
   border: $dt-purple 2px solid;
 }
-.is-active{
-  color:$dt-orange;
-}
+
 input {
   border-radius:0;
 }

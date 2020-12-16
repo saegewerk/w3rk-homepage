@@ -36,7 +36,7 @@ function App() {
                     }
 
                     <li>
-                        <Link to="/download">Download</Link>
+                        <NavLink activeClassName='is-active' to="/download">Download</NavLink>
                     </li>
                     <li>
                         <a target="_blank" href={"https://www.twitch.tv/w3rk"}>Twitch</a>
